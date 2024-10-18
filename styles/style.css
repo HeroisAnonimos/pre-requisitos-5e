@@ -1,0 +1,34 @@
+/* CSS */
+.toggle-pre-requisitos-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.toggle-pre-requisitos {
+  margin-right: 5px;
+}
+.flag-pre-requisitos {
+  font-weight: bold;
+  color: #ff0000;
+  margin-left: 10px;
+}
+.tem-pre-requisitos {
+  border: 2px dashed #ff0000;
+  padding: 5px;
+}
+.drop-target {
+  border: 1px dashed #888;
+  padding: 5px;
+  min-height: 50px;
+  background-color: #f9f9f9;
+}
+.pre-requisitos-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.pre-requisitos-list li {
+  margin: 5px 0;
+  padding: 3px;
+  background-color: #eaeaea;
+  border-radius: 3px;
+}
