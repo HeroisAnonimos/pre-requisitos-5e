@@ -1,23 +1,28 @@
 {
-    "name": "pre-requisitos-5e",
-    "title": "Pre-requisitos 5e",
-    "description": "Módulo para adicionar funcionalidades de pré-requisitos na evolução de características de classe para D&D 5e.",
-    "version": "1.0.0",
-    "author": "Faren",
-    "minimumCoreVersion": "12",
-    "compatibleCoreVersion": "12",
-    "system": "dnd5e",
-    "dependencies": [
-      {
-        "name": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/3.3.1/module.json"
+  "id": "pre-requisitos-5e",
+  "name": "pre-requisitos-5e",
+  "title": "Pre-requisitos 5e",
+  "description": "Módulo para adicionar funcionalidades de pré-requisitos na evolução de características de classe para D&D 5e.",
+  "version": "1.0.0",
+  "author": "Faren Ravirar",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "compatibility": {
+        "minimum": "2.1.0",
+        "verified": "2.4.1"
       }
-    ],
-    "scripts": [
-      "scripts/init.js"
-    ],
-    "styles": [
-      "styles/style.css"
-    ]
-  }
+    }]
+  },
+  "scripts": [
+    "scripts/init.js"
+  ],
+  "styles": [
+    "styles/style.css"
+  ]
+}
